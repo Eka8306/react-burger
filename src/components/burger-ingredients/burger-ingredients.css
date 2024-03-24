@@ -1,0 +1,28 @@
+.Ingredients-column {
+
+    position: relative;
+    width: 600px;
+    height: 650px;
+
+}
+
+.Ingredients-scroll {
+
+    overflow: auto;
+    height: 100%;
+
+}
+
+.Ingredients-scroll::-webkit-scrollbar {
+
+    background-color: #2F2F37;
+    width: 10px;
+    height: 8px;
+
+}
+
+.Ingredients-scroll::-webkit-scrollbar-thumb {
+
+    background: #8585AD;
+
+}

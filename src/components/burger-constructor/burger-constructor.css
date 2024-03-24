@@ -1,0 +1,50 @@
+.Constructor-column {
+
+    position: relative;
+    width: 600px;
+    height: 500px;
+
+}
+
+.Constructor-scroll {
+
+    overflow: auto;
+    height: 350px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+
+.Constructor-scroll::-webkit-scrollbar {
+
+    background-color: #2F2F37;
+    width: 10px;
+    height: 8px;
+
+}
+
+.Constructor-scroll::-webkit-scrollbar-thumb {
+
+    background: #8585AD;
+
+}
+
+.Constructor-col-list {
+
+    /*composes: Constructor-scroll;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.Constructor-total {
+    
+    padding-top: 40px;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
