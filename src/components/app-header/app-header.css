@@ -29,38 +29,16 @@
 
 }
 
+.App-header-icon {
 
-/*}.App-header {
-
-
-  align-items: center;
-  background-color: #282c34;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
   flex-direction: row;
-  width: 100%;
-  
+  align-items: center;
+  padding-top: 18px;
+  text-decoration: none;
+
 }
 
-.app-header_element_1 {
-  display: flex;
-  margin-left: 10%;
-}
-.app-header_element_2 {
-  display: flex;
-  width: 22%;
-  
-  text-align: left;
-  margin-left: 4%;
-}
-.app-header_element_3 {
-  display: flex;
-  width: 32%;
-}
-.app-header_element_4 {
-  display: flex;
-  
-}*/
 
 
 

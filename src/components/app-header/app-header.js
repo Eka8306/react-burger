@@ -12,23 +12,37 @@ function Header() {
             <menu className="App-header-menu">
 
                 <div className="App-header-row">
-                    <BurgerIcon type="primary" />{/*<BurgerIcon type={current==="one" ? "primary" : "secondary"}  />*/}
-                    <p className="text text_type_main-default">
-						Конструктор
-					</p>
-                    <ListIcon type="primary" />
-                    <p className="text text_type_main-default">
-						Лента заказов
-					</p>
+
+					<a href="#" className="App-header-icon">
+						<BurgerIcon type="primary" />{/*<BurgerIcon type={current==="one" ? "primary" : "secondary"}  />*/}
+						<p className="text text_type_main-default">
+							Конструктор
+						</p>
+					</a>
+                    
+					<a href="#" className="App-header-icon">
+						<ListIcon type="primary" />
+						<p className="text text_type_main-default">
+							Лента заказов
+						</p>
+					</a>	
+                    
 				</div>
 
-                <Logo />
+                
+				<a href="#" className="App-header-icon">
+					<Logo />
+				</a>
 
                 <div className="App-header-row">
-                	<ProfileIcon type="primary" />
-					<p className="text text_type_main-default">
-              			Личный кабинет
-	   				</p>
+
+					<a href="#" className="App-header-icon">
+						<ProfileIcon type="primary" />
+						<p className="text text_type_main-default">
+							Личный кабинет
+						</p>
+					</a>
+
 				</div>
 
             </menu>
@@ -37,35 +51,5 @@ function Header() {
 }
 
 
-
-{/*class Header extends React.Component {
-  render() {
-    return (
-	<header className="App-header">
-		<div class="app-header_element_1">
-			<BurgerIcon />
-			<p className="text text_type_main-default">
-              Конструктор
-	   		</p>
-		</div>
-		<div class="app-header_element_2">
-			<ListIcon />
-			<p className="text text_type_main-default">
-              Лента заказов
-	   		</p>
-		</div>
-		<div class="app-header_element_3">
-			<Logo />
-		</div>		   
-	    <div class="app-header_element_4">
-			<ProfileIcon />
-	   		<p className="text text_type_main-default">
-              Личный кабинет
-	   		</p>
-		</div> 
-	</header>
-    );
-  }
-}*/}
 
 export default Header; 
